@@ -1,0 +1,901 @@
+/* Default CSS Start */
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    color: #616161;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Righteous', cursive;
+}
+.text-orange {
+    color: #fc7837;
+}
+.xb-btn {
+    width: 190px;
+    height: 62px;
+    background: #fc7837;
+    color: white;
+    transition: all .3s;
+    text-align: center;
+    border-radius: 0;
+    font-weight: 700;
+}
+.xb-btn:hover {
+    background: white;
+    color: #fc7837;
+}
+.xb-btn-blue {
+    width: 190px;
+    height: 62px;
+    background: #313aaf;
+    color: white;
+    transition: all .3s;
+    text-align: center;
+    border-radius: 0;
+    font-weight: 700;
+}
+.xb-btn-blue:hover {
+    background: #fc7837;
+    color: white;
+}
+.xb-btn {
+    width: 190px;
+    height: 62px;
+    background: #fc7837;
+    color: white;
+    transition: all .3s;
+    text-align: center;
+    border-radius: 0;
+    font-weight: 700;
+}
+.xb-btn:hover {
+    background: white;
+    color: #fc7837;
+}
+.title {
+    text-align: center;
+}
+.title h5 {
+    color: #fc7837;
+    font-size: 16px;
+}
+.title h2 {
+    color: #373737;
+    font-size: 38px;
+}
+.title p {
+    line-height: 1.8;
+    margin: 20px 0px;
+}
+
+/* Default CSS End */
+
+
+/* Top Bar CSS Start */
+
+.top-bar {
+    background-color: #fc7837;
+}
+.top-bar P {
+    color: white;
+    margin: 0;
+    display: inline-block;
+    font-family: 'Righteous', cursive;
+}
+.top-bar span {
+    color: #313aaf;
+    font-weight: 700;
+}
+.top-bar p a {
+    color: white;
+}
+.top-bar .cta-btn {
+    background-color: #313aaf;
+    padding: 10px 35px 10px 70px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 0;
+    -webkit-clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.cta-btn .fa-arrow-right {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/* Top Bar CSS End */
+
+
+/* Header CSS Start */
+
+.navbar {
+    padding: 20px 0;
+}
+.navbar-brand img {
+    width: 130px;
+}
+.nav-item {
+    margin: 0 15px;
+}
+.cart {
+    margin: 0 5px 0px 15px;
+    position: relative;
+}
+.cart .fa-shopping-cart {
+    font-size: 20px;
+}
+.cart span {
+    background-color: #fc7837;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+.nav-link {
+    font-family: 'Righteous', cursive;
+    color: black;
+    transition: all .3s;
+}
+.nav-link:hover {
+    color: #fc7837;
+}
+.nav-item.active .nav-link {
+    color: #fc7837;
+}
+
+/* Header CSS End */
+
+
+/* Banner CSS Start */
+
+#banner {
+    background-image: url('../images/banner_img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 85vh;
+    position: relative;
+}
+
+/* 
+.overlay {
+    background-color: rgba(49, 58, 175, .85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+#banner::before {
+    content: "";
+    background-color: rgba(49, 58, 175, .85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#banner h1 {
+    color: white;
+}
+#banner p {
+    color: white;
+    margin: 30px 0px;
+}
+.banner-images {
+    position: relative;
+    top: -100px;
+}
+.bn-img-1 {
+    position: absolute;
+    z-index: 8;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bn-img-2 {
+    position: absolute;
+    top: 16px;
+    width: 84%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: rotate 30s infinite;
+}
+.bn-img-3 {
+    position: absolute;
+    top: -50px;
+    width: 88%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: rotate-rev 30s infinite;
+}
+.bn-img-4 {
+    position: absolute;
+    top: -35px;
+    width: 95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    animation: rotate 30s infinite;
+}
+@-webkit-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotate-rev {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@-moz-keyframes rotate-rev {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@-o-keyframes rotate-rev {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes rotate-rev {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+/* Banner CSS End */
+
+
+/* Process CSS Start */
+
+#process {
+    padding: 160px 20px 80px;
+}
+.process-items {
+    text-align: center;
+    padding: 0 25px;
+}
+.img-icon {
+    position: relative;
+    background: #fceee3;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    transition: all .4s;
+}
+.img-icon img:nth-child(1) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-icon img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.process-items:hover .img-icon {
+    background: #313aaf;
+}
+.process-items:hover img:nth-child(1) {
+    opacity: 0;
+}
+.process-items:hover img:nth-child(2) {
+    opacity: 1;
+}
+.process-items h2 {
+    font-size: 18px;
+    margin: 30px 0px;
+}
+.process-items p {}
+.col-sm:nth-child(2) .process-items {
+    margin-top: -60px;
+}
+
+/* Process CSS End */
+
+
+/* Statistics CSS Start */
+
+#stats {
+    padding: 60px 20px;
+}
+.stats-info {
+    position: relative;
+    height: 65vh;
+}
+.play-btn {
+    background: #313aaf;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+    z-index: 5;
+}
+.play-btn .fa-play {
+    background: white;
+    width: 70px;
+    height: 70px;
+    padding: 24px 22px 21px 26px;
+    border-radius: 50%;
+    color: #313aaf;
+}
+.bg-img {
+    background-image: url('../images/stats_bg.jpg');
+    background-position: center center;
+    background-size: 175%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 530px;
+    position: absolute;
+    left: 115px;
+    top: 30px;
+}
+.stats-numbers {
+    background: #ff7d15;
+    width: 670px;
+    text-align: center;
+    padding: 30px;
+    position: absolute;
+    top: 295px;
+    right: 0;
+}
+.stats-numbers .infos {
+    display: inline-block;
+    margin: 0 30px;
+}
+.stats-numbers .infos h1 {
+    color: white;
+    font-size: 50px;
+}
+.stats-numbers .infos p {
+    margin: 0;
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+
+/* Statistics CSS End */
+
+
+/* Services CSS Start */
+
+#services {
+    padding: 80px 20px;
+}
+.service-items {
+    background: #f3f3fb;
+    padding: 120px 52px 85px;
+    position: relative;
+    margin-top: 150px;
+    margin-right: 25px;
+}
+.service-items .shape {
+    width: 160px;
+    height: 70px;
+    background: #ff7d15;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all .3s;
+}
+.service-items:hover .shape {
+    background: #313aaf;
+}
+.service-items .service-img {
+    width: 260px;
+    height: 140px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -80px;
+    left: 35px;
+    transition: all .3s;
+}
+.service-items:hover .service-img {
+    transform: translate(30px, 10px);
+}
+.service-items h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.service-items button {
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    font-weight: 300;
+    transition: all .3s;
+}
+.service-items button .fa-long-arrow-alt-right {
+    transform: translate(20px, 2px);
+    transition: all .3s;
+}
+.service-items:hover button {
+    right: 0;
+}
+.service-items button:hover .fa-long-arrow-alt-right {
+    transform: translate(30px, 2px);
+}
+
+/* Services CSS End */
+
+
+/* Appointment CSS Start */
+
+#appointment {
+    position: relative;
+    background-image: url('../images/appointment_img.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: cover;
+    margin-top: 150px;
+    max-height: 400px;
+}
+#appointment::before {
+    content: "";
+    background-color: rgba(49, 58, 175, .85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#appointment .img-left {
+    width: 650px;
+    height: 250px;
+    background-image: url("../images/appointment_img_2.jpg");
+    position: relative;
+    background-position: center -41px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -175px;
+}
+#appointment .img-left img {
+    position: absolute;
+    margin: 0 auto;
+    bottom: -36px;
+    right: 0;
+    left: 0;
+}
+#appointment h1 {
+    color: white;
+    font-size: 55px;
+    margin-top: 85px;
+    transform: translateY(-200px);
+}
+.appointment-form {
+    position: absolute;
+    top: -425px;
+    width: 100%;
+}
+.appointment-form h2 {
+    font-size: 40px;
+    color: white;
+    background-color: #313aaf;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.appointment-form form {
+    background-color: #fc7837;
+    padding: 66px 70px;
+}
+.appointment-form form input {
+    background-color: #ff9643;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 30px 20px;
+    transition: all .3s;
+    font-size: 20px;
+}
+.appointment-form form select {
+    background-color: #ff9643;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    height: 67px;
+    padding: 0px 40px;
+    transition: all .3s;
+    font-size: 20px;
+}
+.appointment-form form select option:hover {
+    box-shadow: 0 0 10px 100px black inset;
+}
+.appointment-form form input: focus,
+.appointment-form form select: focus {
+    background-color: #ffb57a;
+    outline: none;
+    box-shadow: onset;
+    color: white;
+}
+.appointment-form form input: placeholder,
+.appointment-form form select: placeholder {
+    color: rgb(255, 255, 255, 0.72);
+}
+
+/* Appointment CSS End */
+
+
+/* Testimonial CSS Start */
+
+#testimonial {
+    margin-top: 150px;
+    position: relative;
+}
+#testimonial .testimony {
+    padding: 10px 10px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#testimonial .portrait {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0;
+    border-radius: 50px;
+    display: inline-block;
+}
+#testimonial .portrait img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -16px;
+    right: 0;
+    left: 0;
+}
+#testimonial .desc {
+    margin: 20px;
+    text-align: left;
+    display: inline-block;
+}
+.desc .unchecked {
+    color: #dfc1a9;
+}
+.desc .checked {
+    color: #ff7d15;
+}
+
+/* Testimonial CSS End */
+
+
+/* Slider CSS Start */
+
+#slider {
+    margin-top: 250px;
+    position: relative;
+    height: 140px;
+    width: auto;
+}
+#slider .img-left {
+    width: 800px;
+    height: 195px;
+    background-image: url("../images/slider.jpg");
+    background-color: #e67113;
+    opacity: 1;
+    background-blend-mode: overlay;
+    position: relative;
+    background-position: center -41px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -175px;
+    z-index: 1;
+}
+#slider h1 {
+    margin-left: 102px;
+    padding-left: 51px;
+    text-align: left;
+    color: white;
+    padding-top: 49px;
+}
+
+#slider .shape-right {
+    width: 580px;
+    height: 200px;
+    background-color: #313aaf;
+    position: relative;
+    background-position: center -41px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -329px;
+    left: 604px;
+}
+.shape-right .slider-items{
+    left: 300px;
+    top: 50px;
+    position:absolute;
+}
+.shape-right .slider-left{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: #3e48bb;
+    display: inline-block;
+    text-align: center;
+    margin:auto 0;
+    vertical-align: middle;
+    transition: background-color .5s;
+    position:absolute;
+    z-index: 0;
+}
+
+.slider-left:hover{
+    background-color: #ff7d15;
+}
+.slider-left p{
+    padding-top: 38%;
+    color: white;
+}
+.shape-right .slider-right{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    position:absolute;
+    background-color: #3e48bb;
+    display: inline-block;
+    text-align: center;
+    margin:auto 0;
+    left:100px;
+    vertical-align: middle;
+    transition: background-color .5s;
+    z-index: 0;
+}
+.slider-right:hover {
+    background-color: #ff7d15;
+}
+.slider-right p{
+    padding-top: 38%;
+    color: white;
+}
+/* Slider CSS End */
+
+/* Slider Items CSS Start */
+
+#slider-items{
+    
+    text-align: center;
+}
+
+#slider-items .item{
+    position: relative;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    transition: all .3s;
+}
+#slider-items .item:hover{
+    position: relative;
+    height: 450px;
+    background-color:#313aaf;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.item .content{
+    background-color: #313aaf;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    height: 70px;
+    width: 220px;
+    z-index: 0;
+    transition: all .3s;
+}
+.content h6{
+    font-size: 1rem;
+    color:white;
+}
+.content p{
+    font-size: 0.75rem;
+    color:white;
+}
+.item:hover .content{
+    background-color:#ff7d15;
+    transform: translate(15px, 10px);
+}
+.item .arrow{
+    background-color: #ff7d15;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 30px;
+    width: 50px;
+    transition: all .3s;
+    z-index:0;
+}
+.item:hover .arrow{
+    background-color: #313aaf;
+}
+.arrow p{
+    color: white;
+    margin-top: 3px;
+}
+/* Slider Items CSS End */
+
+/* News CSS Start */
+#news{
+    margin-top: 100px;
+}
+
+#news .newsitem{
+    margin-top: 50px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.newsitem .headline{
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    height: 125px;
+    background-color:#313aaf;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    opacity: 0.95;
+    transition: all .3s;
+}
+.headline:hover{
+    background-color:#ff7d15;
+}
+.headline p{
+    color: white;
+    margin-bottom: 5px;
+    opacity: 1;
+}
+.headline h5{
+    color: white;
+}
+/* News CSS End */
+
+/* Ending Area Start */
+#ending{
+    margin-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-color: #373737;
+    position: relative;
+}
+
+#ending .enditems{
+    text-align: left;
+    margin-top: 50px;
+    color: white;
+}
+.enditems img{
+    width: 100px;
+    height: 40px;
+}
+.enditems p{
+    margin-top: 25px;
+    color: white;
+    font-size: 12px;
+}
+.enditems .box{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    position:relative;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+    margin-top: 10px;
+}
+.options p{
+    color: color;
+    margin: 18px 0;
+    font-size: 14px;
+}
+.options p:hover{
+    color: #ff7d15;
+}
+
+.address p{
+    color: color;
+    margin: 18px 0;
+    font-size: 14px;
+}
+.box:hover{
+    background-color: #ff7d15;
+}
+
+.box:hover p{
+    color: white;
+}
+.box p{
+    margin-top: 15px;
+    color:#444444
+}
+#ending .footer{
+    margin-top: 25px;
+    color: white;
+}
+.footer span{
+    color:#ff7d15;
+}
+/* Ending Area End */

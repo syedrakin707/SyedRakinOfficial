@@ -1,0 +1,399 @@
+/* Default CSS Start */
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    color: #616161;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.xb-btn {
+    width: 160px;
+    height: 45px;
+    color: white;
+    border: 2px solid #153b6d;
+    transition: all .3s;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.xb-btn:hover {
+    background: #ff3334;
+    color: white;
+}
+.title {
+    text-align: center;
+}
+.title h5 {
+    color: #2a5da3;
+    font-size: 14px;
+}
+.title h2 {
+    color: white;
+    font-size: 36px;
+}
+.title p {
+    line-height: 1.8;
+    margin: 20px 0px;
+}
+.text-blue {
+    color: #2a5da3;
+}
+body {
+    background-image: linear-gradient(#0a2349, #010103);
+    background-repeat: no-repeat;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #102e58;
+}
+
+/* Default CSS End */
+
+
+/* Topbar CSS Start */
+
+.top-bar {
+    padding-top: 63px;
+}
+.top-bar img {
+    width: auto;
+    height: 50px;
+}
+.top-bar .t-box {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.t-box p {
+    color: #2a5ea4;
+    font-size: 2rem;
+    text-align: center;
+}
+.t-box p:hover {
+    color: white;
+}
+
+/* Topbar CSS End */
+
+
+/* Header CSS Start */
+
+#header {
+    margin-top: 100px;
+}
+#header h2 {
+    margin-bottom: 16px;
+}
+#header h5 {
+    margin-bottom: 64px;
+}
+#header .showcase1 {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+#header .showcase2 {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#header .musicbars {
+    position: absolute;
+    top: 600px;
+}
+.musicbars img {
+    width: 100%;
+    transform: scaleY(1);
+    background-blend-mode: darken;
+}
+.showcase2 img {
+    width: 80%;
+    height: 80%;
+    transform-origin: center;
+    transition: all .3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.showcase2 img:hover {
+    transform: scale(1.25);
+    box-shadow: 0 4px 8px 0 #153b6d, 0 6px 20px 0 #153b6d;
+}
+
+/* Header CSS End */
+
+
+/* Feature CSS Start */
+
+#features {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#features .headphones img {
+    height: 90%;
+    width: 90%;
+}
+#features .feature-title {
+    margin-top: 60px;
+    margin-right: 130px;
+}
+.feature-title p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+#features .main-features {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-features .fshow {
+    margin-top: 90px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.fshow .phone-display {
+    text-align: center;
+    position: relative;
+}
+.fshow .phone-display img {
+    width: 300px;
+    height: 550px;
+    z-index: 1;
+}
+.phone-display .out-eclipse {
+    position: absolute;
+    clip-path: ellipse(50% 20% at 50% 50%);
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(#010103, #0a2345);
+    bottom: -50px;
+    transform: scale(1.5);
+    z-index: -1;
+    box-shadow: inset 0 0 10px #114996;
+}
+.phone-display .in-eclipse {
+    position: absolute;
+    clip-path: ellipse(50% 20% at 50% 50%);
+    height: 100px;
+    width: 70%;
+    background-image: linear-gradient(#010103, #0a2345);
+    bottom: 50px;
+    z-index: -2;
+    text-align: center;
+    left: 50px;
+    box-shadow: inset 0 0 10px #114996;
+}
+.fshow .fshow2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fshow2 img {
+    width: 48px;
+    height: 48px;
+}
+.fshow2 h5 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.fshow2 p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* Feature CSS End */
+
+
+/* Perspective CSS Start */
+
+#perspective .ps {
+    margin-left: 120px;
+}
+.ps {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.ps img {
+    width: 48px;
+    height: 48px;
+}
+.ps h5 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.ps p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+#perspective .mob-show img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Perspective CSS End */
+
+
+/* Opinions CSS Start */
+
+#opinions {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../images/opinion_back.png);
+    height: 350px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #02074d;
+    background-blend-mode: multiply;
+    position: relative;
+}
+#opinions .review {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.review h5 {
+    color: #404f63;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+.review img {
+    display: inline-block;
+    margin-right: 15px;
+}
+.review p {
+    display: inline-block;
+    margin-top: 2px;
+    color: #66778e;
+    font-weight: 900;
+    justify-content: center;
+}
+.review span {
+    color: #213a61;
+}
+.review .identity {
+    display: inline-block;
+}
+.carousel-indicators {
+    bottom: 50px;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid #335a95;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #335a95;
+}
+
+/* Opinions CSS End */
+
+
+/* Download CSS Start */
+
+#download {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+}
+#download .title {
+    margin-left: 180px;
+    margin-right: 180px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+}
+#download .title p {
+    font-size: 14px;
+}
+#download .title .mob-show-2{
+    padding-bottom: 40px;
+}
+#download .title .mob-show-2 img {
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+}
+
+#download .title .mob-show-2 .img1{
+    background-image: linear-gradient(-90deg,#0a2345, #010103 60%);
+    background-blend-mode: darken;
+    height: 80%;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 95px;
+    z-index: -1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #02074d;
+    background-blend-mode: overlay;
+}
+#download .title .mob-show-2 .img2 {
+    background-image: linear-gradient(90deg, #0a2345, #010103 60%);
+    background-blend-mode: darken;
+    height: 80%;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: -50px;
+    z-index: -1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #02074d;
+    background-blend-mode: overlay;
+}
+
+/* Download CSS End */
+
+
+/* Footer CSS Start */
+
+#footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #14396a;
+    font-weight: 400;
+}
+#footer a {
+    margin-right: 20px;
+    font-weight: 500;
+}
+#footer a:hover {
+    color: white;
+    text-decoration-line: none;
+    font-weight: 500;
+}
+
+/* Footer CSS End */
