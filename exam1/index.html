@@ -12,6 +12,7 @@
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
 
     <title>Bootstrap 4 </title>
 
@@ -22,7 +23,7 @@
     <div class="top-bar">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-sm text-sm-right text-center">
+                <div class="col-sm text-xl-right text-center">
                     <nav class="navbar">
                         <a class="navbar-brand" href="#"><img src="assets/images/coeluso_logo.png"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,10 +37,10 @@
                                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                    <a class="nav-link" href="#">History of Coeluso</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">Disabled</a>
+                                    <a class="nav-link" href="#">About</a>
                                 </li>
                             </ul>
                         </div>
@@ -71,17 +72,17 @@
         <div class="container">
             <div class="showcase1">
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col">
                         <div class="showcase2">
                             <img src="assets/images/screen_img_1.png">
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col">
                         <div class="showcase2">
                             <img src="assets/images/screen_img_2.png">
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col">
                         <div class="showcase2">
                             <img src="assets/images/screen_img_3.png">
                         </div>
@@ -96,12 +97,12 @@
     <section id="features">
        <div class="container-fluid">
         <div class="row">
-            <div class="col-sm">
+            <div class="col-md-6">
                 <div class="headphones">
                     <img src="assets/images/headphones_img.png">
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="feature-title">
                     <h2>
                     <span class="text-blue">Coeluso</span> is free PSD template
@@ -124,21 +125,21 @@
                 </h2>
                 </div>
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col-sm-6 col-lg-4" >
                         <div class="fshow">
-                            <div class="fshow2">
+                            <div class="fshow2" id="fshowleft">
                                 <img src="assets/images/features_icon_speaker.png">
                                 <h5>Lorem ipsum dolor sit amet</h5>
                                 <p>Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. </p>
                             </div>
-                            <div class="fshow2">
+                            <div class="fshow2" id="fshowleft">
                                 <img src="assets/images/features_icon_activity.png">
                                 <h5>Lorem ipsum dolor sit amet</h5>
                                 <p>Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-md-4 d-none d-lg-block">
                         <div class="fshow">
                             <div class="phone-display">
                                 <img src="assets/images/features_phone.png">
@@ -150,14 +151,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-6 col-lg-4" >
                         <div class="fshow">
-                            <div class="fshow2">
+                            <div class="fshow2" id="fshowright">
                                 <img src="assets/images/features_icon_headphones.png">
                                 <h5>Lorem ipsum dolor sit amet</h5>
                                 <p>Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. </p>
                             </div>
-                            <div class="fshow2">
+                            <div class="fshow2" id="fshowright">
                                 <img src="assets/images/features_icon_cd.png">
                                 <h5>Lorem ipsum dolor sit amet</h5>
                                 <p>Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. </p>
@@ -192,21 +193,72 @@
     <!-- Perspective Section Ends -->
 
     <!-- Opinions Section Starts -->
-    <section id="opinions">
-        <div class="review">
+    <section id="opinions" >
+       <div id = "carousel" class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators ">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="review">
             <h5>
                Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. 
            </h5>
             <img src="assets/images/opinion_portrait.png">
             <p>Patryk Wasik, <span>Graphic designer at SYMU</span></p>
         </div>
-        <ol class="carousel-indicators ">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
+    </div>
+    <div class="carousel-item">
+      <div class="review">
+            <h5>
+               Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. 
+           </h5>
+            <img src="assets/images/opinion_portrait.png">
+            <p>Lauriam Blade, <span>Web designer at FCB</span></p>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="review">
+            <h5>
+               Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. 
+           </h5>
+            <img src="assets/images/opinion_portrait.png">
+            <p>Ali Blake, <span>App Tester at VNC</span></p>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="review">
+            <h5>
+               Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. 
+           </h5>
+            <img src="assets/images/opinion_portrait.png">
+            <p>Oli Davis, <span>Commentator at WrestleTalk</span></p>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="review">
+            <h5>
+               Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. 
+           </h5>
+            <img src="assets/images/opinion_portrait.png">
+            <p>Seth Green, <span>Midfielder at FC Karwan Bazar</span></p>
+        </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+   </div>
     </section>
     <!-- Opinions Section Ends -->
 
@@ -219,15 +271,15 @@
             <p><strong>Consectetur adipiscing elit. Ut fermentum condimentum massa, in sagittis dolor feugiat id. Morbi pharetra elit non lorem elementum iaculis. </strong></p>
             <div class="mob-show-2">
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-4">
                         <div class="img1">
                             <img src="assets/images/download_phone1.png" style="opacity: 0.3">
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-4">
                         <img src="assets/images/download_phone.png" style="z-index: 1">
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-4">
                         <div class="img2">
                             <img src="assets/images/download_phone2.png" style="opacity: 0.3">
                         </div>
@@ -242,16 +294,16 @@
     <!-- Download Section Ends -->
 
     <!-- Footer Section Starts -->
-    <section id="footer" class="carousel slide">
+    <section id="footer">
         <div class="container">
             <div class="row align-items-center">
-                <div class="navbar">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 navbar text-sm-center">
                     <a href="#home">Homepage</a>
                     <a href="#news">Services</a>
                     <a href="#contact">About Us</a>
                     <a href="#contact">Contact</a>
                 </div>
-                <div class="col-sm text-sm-right text-center">
+                <div class="col-sm-12 col-lg-6 col-xl-6 text-lg-right text-center">
                     Copyright ⓒ 2015. All rights reserved by Coeluso
                 </div>
             </div>
