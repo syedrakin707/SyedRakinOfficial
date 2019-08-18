@@ -2,7 +2,21 @@
 
 @media (max-width: 575.98px) {
     /* Modded Default CSS Start */
-    
+    p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    color: #616161;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}
     /* Modded Default CSS End */
     
     /* Modded Top-Bar CSS Start */
@@ -352,7 +366,21 @@
     body {
         background-image: linear-gradient(#0a2349, #010103);
     }
-    
+    p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    color: #616161;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+}
     /* Modded Top-Bar CSS Start */
     .top-bar {
         padding-top: 00px;
@@ -986,6 +1014,101 @@
 /* Large devices (desktops, 992px and above) */
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Modded Perspective CSS Start */
+    #perspective .ps {
+        margin-left: 120px;
+    }
+    .ps {
+        margin-top: 0px;
+        margin-bottom: 80px;
+    }
+    .ps img {
+        width: 48px;
+        height: 48px;
+    }
+    .ps h5 {
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .ps p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    #perspective .mob-show img {
+        height: 100%;
+        width: 100%;
+    }
+    /* Modded Perspective CSS End */
+    /* Modded Opinions CSS Start */
+    #opinions {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-image: url(../images/opinion_back.png);
+        min-height: 300px;
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #02074d;
+        background-blend-mode: multiply;
+        position: relative;
+    }
+    #opinions .review {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .review h5 {
+        color: #404f63;
+        line-height: 2;
+        margin-bottom: 20px;
+        font-size: 18px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .review img {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .review p {
+        display: inline-block;
+        margin-top: 2px;
+        color: #66778e;
+        font-weight: 900;
+        justify-content: center;
+    }
+    .review span {
+        color: #213a61;
+    }
+    .review .identity {
+        display: inline-block;
+    }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        border: 2px solid #335a95;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: transparent;
+    }
+    .carousel-indicators .active {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #335a95;
+    }
+    
+    /* Modded Opinions CSS End */
     #download .title .mob-show-2 .img1 {
         background-image: linear-gradient(-90deg, #0a2345, #010103 60%);
         background-blend-mode: darken;
